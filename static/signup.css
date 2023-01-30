@@ -1,0 +1,93 @@
+.signup-container{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+
+.terms-container{
+    position: fixed; 
+    width: 80%; 
+    height: 80%; 
+    top:10%;
+    left:10%;
+    overflow-y: scroll;
+    z-index: 2;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.signup-form-division{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 2%;
+    padding: 2%;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px 8px rgba(0, 0, 0, 0.1);
+}
+.signup-header{
+    width: auto;
+    margin-bottom: 6%;
+}
+.button-div{
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.signup-button{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10%;
+    size: 1rem;
+}
+
+.signup-input{
+    margin-bottom: 5%;
+}
+
+.form-label{
+    font-size: 0.8rem;
+}
+.terms-conditions{
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.disabled-class{    
+    color: #fff;
+    background-color: #BBBBBB;
+}
+.signin-link{
+    font-size: 0.8rem;
+}
+.dec-none-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type=checkbox] {
+    width: 6%;
+    height: 10px;
+    display: inline-block;
+}
+.terms-conditions{
+    vertical-align: middle;
+}
+.pp{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-top: 0;
+}
+.form-error{
+    font-size: 0.8rem;
+    color: red;
+}
+.terms-checkbox{
+    cursor: pointer;
+}
