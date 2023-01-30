@@ -6,12 +6,13 @@ app.secret_key = os.urandom(24)
 
 @app.route("/",methods=['GET','POST'])
 def login():
-    userName = ""
-    password = ""
-    error = None
-    if request.method == 'POST':
-        return redirect(url_for('home'))
-    return render_template('login.html',error=error)
+    return 'Hello World'
+    # userName = ""
+    # password = ""
+    # error = None
+    # if request.method == 'POST':
+    #     return redirect(url_for('home'))
+    # return render_template('login.html',error=error)
 
 @app.route("/signup",methods=['POST','GET'])
     firstName = ""
