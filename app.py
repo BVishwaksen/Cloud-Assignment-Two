@@ -17,7 +17,6 @@ def login():
     firstName = ""
     lastName = ""
     email = ""
-    userName = ""
     password = ""
 def signup():
     if request.method == 'POST':
