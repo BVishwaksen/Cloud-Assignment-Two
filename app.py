@@ -55,6 +55,7 @@ def signup():
         sql = "INSERT INTO users (username, firstname, lastname, email, userpassword) VALUES (?, ?, ?, ?, ?)"
         val = (username,firstname,lastname,email,password)
         mycursor.execute(sql, val)
+        conn.commit()
         return render_template('home.html',firstName=firstname,lastName=lastname,userEmail=email)
     return render_template("signup.html")
 

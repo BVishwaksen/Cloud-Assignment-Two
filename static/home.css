@@ -1,0 +1,16 @@
+.details-div{
+    width: 60%;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.details-item-div{
+    display: flex;
+    padding: 2%;
+}
+.label{
+    text-align: left;
+    font-weight: bold;
+    width: 20%;
+}
