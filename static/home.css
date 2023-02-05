@@ -14,3 +14,10 @@
     font-weight: bold;
     width: 20%;
 }
+
+.download-button{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10%;
+    size: 1rem;
+}
